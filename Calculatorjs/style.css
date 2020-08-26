@@ -1,0 +1,91 @@
+ 
+* {
+  margin: 0;
+  padding: 0;
+} 
+
+body {
+  background : url('bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%,-50%);
+  width: 320px;
+  height: 550px;
+  background-color: #060c21;
+  margin: 0 auto;
+  border: 5px solid white;
+  border-radius: 8px;
+}
+
+#keyboard {
+  height: 410px;
+}
+
+#result {
+  padding-top: 30px;
+  height: 120px;
+  overflow: hidden;
+}
+
+#eval {
+  text-align: right;
+  height: 50px;
+  margin: 0 40px;
+  font-size: 25px;
+  color: #d2cfcf;
+  justify-content: center;
+}
+
+#output {
+  text-align: right;
+  height: 40px;
+  margin: 0 20px;
+  font-size: 30px;
+  color: #fff;
+  justify-content: center;
+}
+
+.op, .num {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  margin: 14px;
+  float: left;
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+  color: aqua;
+  background-color: transparent;
+}
+
+.num {
+  color: #fff;
+  font-size: 18px;
+}
+
+.op:active, .num:active {
+  font-size: 12px;
+}
+
+button:nth-child(4),button:nth-child(8),button:nth-child(16),button:nth-child(20) {
+  font-size: 18px;
+}
+
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background: black;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}

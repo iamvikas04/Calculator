@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyCalculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="result">
+      <div id="output">
+        <p id="output-value">
+        </p>
+        <div id="eval">
+          <p id="evaluation-value">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="keyboard">
+      <button type="button" id="clear" class="op" onclick="clearText()">C</button>
+      <button type="button" id="backspace" class="op" onclick="backSpace()">CE</button>
+      <button type="button" id="%" class="op" onclick="AddValue('%')">%</button>
+      <button type="button" id="/" class="op" onclick="AddValue('/')">&#247</button>
+
+      <button type="button" id="7" class="num" onclick="AddValue('7')">7</button>
+      <button type="button" id="8" class="num" onclick="AddValue('8')">8</button>
+      <button type="button" id="9" class="num" onclick="AddValue('9')">9</button>
+      <button type="button" id="*" class="op" onclick="AddValue('*')">&times</button>
+
+      <button type="button" id="4" class="num" onclick="AddValue('4')">4</button>
+      <button type="button" id="5" class="num" onclick="AddValue('5')">5</button>
+      <button type="button" id="6" class="num" onclick="AddValue('6')">6</button>
+      <button type="button" id="-" class="op" onclick="AddValue('-')">-</button>
+
+      <button type="button" id="1" class="num" onclick="AddValue('1')">1</button>
+      <button type="button" id="2" class="num" onclick="AddValue('2')">2</button>
+      <button type="button" id="3" class="num" onclick="AddValue('3')">3</button>
+      <button type="button" id="+" class="op" onclick="AddValue('+')">+</button>
+
+      <button type="button" id="00" class="num" onclick="AddValue('00')">00</button>
+      <button type="button" id="0" class="num" onclick="AddValue('0')">0</button>
+      <button type="button" id="dot" class="num" onclick="AddValue('3')">.</button>
+      <button type="button" id="=" class="op" onclick="EqualButton()">=</button>
+    </div>
+  </div>
+  <script src="index.js" type="text/javascript"></script>
+  <footer>
+    Made with 💙 by Vikas.G
+  </footer>
+</body>
+</html>
