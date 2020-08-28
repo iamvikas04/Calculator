@@ -24,7 +24,7 @@ function clearText() {
 
 function backSpace() {
   document.getElementById('output-value').innerText =   document.getElementById('output-value').innerText.substring(
-    0,  document.getElementById('output-value').innerText.length-1)
+    0,  document.getElementById('output-value').innerText.length-1);
     
   // document.getElementById('evaluation-value').innerText =   document.getElementById('output-value').innerText.substring(
   //   0,  document.getElementById('evaluation-value').innerText.length-1)
