@@ -4,12 +4,6 @@
   padding: 0;
 } 
 
-body {
-  background : url('bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 #container {
   position: absolute;
   top: 50%;
@@ -19,7 +13,7 @@ body {
   height: 550px;
   background-color: #060c21;
   margin: 0 auto;
-  border: 5px solid white;
+  border: 5px solid black;
   border-radius: 8px;
 }
 
