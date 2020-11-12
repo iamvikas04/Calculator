@@ -1,4 +1,4 @@
-# mycalculator
+# MyCalculator
 
 * This is a Web Based Calculator 
 * With a Lot of Bugs 😥
